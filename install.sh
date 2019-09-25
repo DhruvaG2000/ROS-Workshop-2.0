@@ -21,7 +21,7 @@ catkin_make
 cd ~/catkin_ws/devel/sra/scripts
 sudo chmod +x Publisher.py Publisher_ForwardKinematics.py Publisher_InverseKinematics.py Subscriber.py SubscriberSocketTCP.py
 
-cd ~/ROS_Workshop-2.0
+cd ~/ROS_Workshop-2.0/ESP-IDF
 cp -r ROS_SRA19 ~/esp/esp-idf/components
 mkdir ~/esp/esp-idf/codes
 cp -r Server_with_Servo_Control Servo_Set_Zero Servo_Sweep TCP_Server ~/esp/esp-idf/codes
