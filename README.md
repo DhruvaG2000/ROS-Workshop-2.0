@@ -11,7 +11,7 @@ Run the following command for a quick install:
 ```
 ## Steps:
 
-1) Flash the code 'Server_with_Servo_Control' onto your ESP32; wait till it connects onto the server
+1) Flash the code 'Server_with_Servo_Control' onto your ESP32; wait till it connects to the server
 ```bash
 cd ~/esp/esp-idf/codes/Server_with_Servo_Control
 make -j8 flash monitor
