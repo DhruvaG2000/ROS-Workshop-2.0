@@ -7,14 +7,11 @@ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 . ~/catkin_ws/devel/setup.bash
 
 rospack depends1 sra
-roscd sra
-cat package.xml
 
 cd ~/catkin_ws/src/sra
-rmdir -r include msg src 
-rm -f CMakelists.txt package.xml
-cd ~/ROS_Workshop-2.0
-cp msg scripts CMakelists.txt package.xml ~/catkin_ws/src/sra
+rm -rf *
+cd ~/ROS_Workshop-2.0/ROS_Python
+cp -r . ~/catkin_ws/src/sra
 
 cd ~/catkin_ws
 catkin_make
