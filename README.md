@@ -16,7 +16,7 @@ Run the following command for a quick install:
 cd ~/esp/esp-idf/codes/Server_with_Servo_Control
 make -j8 flash monitor
 ```
-2) Start the ros core service i.e. the ROS Master by the `roscore` command.
+2) Start the ROS Core service i.e. the ROS Master by the `roscore` command.
 
 3) Start the ROS Publisher by executing the relevant pythom script:
 ```bash
