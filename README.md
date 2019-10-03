@@ -18,7 +18,7 @@ make -j8 flash monitor
 ```
 2) Start the ROS Core service i.e. the ROS Master by the `roscore` command.
 
-3) Start the ROS Publisher by executing the relevant pythom script:
+3) Start the ROS Publisher by executing the relevant python script: (e.g. angle -> coordinates)
 ```bash
 rosrun sra Publisher_ForwardKinematics.py
 ```
