@@ -1,4 +1,4 @@
-# ROS-Workshop-2.0
+# ROS-Workshop-2.0 outdated!! DO NOT RUN INSTALL SH
 
 *Official Repository for ROS-based Manipulator, implemented with ESP32*
 
